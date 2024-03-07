@@ -3,30 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu página</title>
+    <title>Ejercicio Flexbox</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Título del sitio</h1>
+        <h1>Título del sitio H1</h1>
     </header>
-    <nav id="menu">
-        <ul>
-            <li><a href="#seccion1">Link 1</a></li>
-            <li><a href="#seccion2">Link 2</a></li>
-            <li><a href="#seccion3">Link 3</a></li>
-            <li><a href="#seccion4">Link 4</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="seccion1">
-            <h2>Sección 1</h2>
-            <!-- Contenido de la sección 1 -->
-        </section>
-        <section id="seccion2">
-            <h2>Sección 2</h2>
-            <!-- Contenido de la sección 2 -->
-        </section>
-    </main>
+    <div id="contenedor">
+        <nav id="Menu">
+            <h2 id="menuNav">Menú H2</h2>
+            <ul>
+                <li><a href="#seccion1">Link 1</a></li>
+                <li><a href="#seccion2">Link 2</a></li>
+                <li><a href="#seccion3">Link 3</a></li>
+                <li><a href="#seccion4">Link 4</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="seccion1">
+                <h2>Sección 1 H2</h2>
+                <!-- Contenido de la sección 1 -->
+                <div class="articulo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Square_200x200.svg/200px-Square_200x200.svg.png" alt="100px">
+                    <p>Contenido del articulo 1</p>
+                    <p>Autor</p>
+                </div>
+                <div class="articulo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Square_200x200.svg/200px-Square_200x200.svg.png" alt="100px">
+                    <p>Contenido del articulo 2</p>
+                    <p>Autor</p>
+                </div>
+                <div class="articulo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Square_200x200.svg/200px-Square_200x200.svg.png" alt="100px">
+                    <p>Contenido del articulo 3</p>
+                    <p>Autor</p>
+                </div>
+            </section>
+            <section id="seccion2">
+                <h2>Sección 2 H2</h2>
+                <!-- Contenido de la sección 2 -->
+                <div class="articuloBoton">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Square_200x200.svg/200px-Square_200x200.svg.png" alt="100px">
+                    <button>Opinar</button>
+                </div>
+                <div class="articuloBoton">
+                    <button>Opinar</button>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Square_200x200.svg/200px-Square_200x200.svg.png" alt="100px">
+                    
+                </div>
+                <div class="articuloBoton">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Square_200x200.svg/200px-Square_200x200.svg.png" alt="100px">
+                    <button>Opinar</button>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
